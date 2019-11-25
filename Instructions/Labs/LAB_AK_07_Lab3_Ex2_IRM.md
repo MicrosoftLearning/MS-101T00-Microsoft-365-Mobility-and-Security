@@ -65,7 +65,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 2. The **SharePoint admin center** tab should still be open in your browser from Lab 1 when you enabled IRM for SharePoint Online; if so, select this tab now. However, if you closed this tab, then In the **Microsoft 365 admin center**, scroll down through left-hand navigation pane and under **Admin centers**, select **SharePoint**. This will open the SharePoint admin center.
 
-3. In the **SharePoint admin center**, in the left-hand navigation pane, select **Classic features**, then scroll down to the bottom of the **Classic features** page, select **More classic features** and under **Classic site collections page**, select **Open**.
+3. In the **SharePoint admin center**, in the left-hand navigation pane, select **More features**, then scroll down to the bottom of the **More features** page and under **Classic site collections page**, select **Open**.
 
 4. On the **Site Collections** window, in the ribbon at the top, select **New** and then select **Private Site Collection**
 
