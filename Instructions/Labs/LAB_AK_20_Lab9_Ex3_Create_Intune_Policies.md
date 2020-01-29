@@ -172,7 +172,7 @@ The purpose of this task is to show you how to use Intune to push an app to a de
 10. In the search field on your taskbar, enter **cmd** , and then in the menu, right-click on **Command Prompt** and select **Run as administrator**.
 11. In the Command Prompt window, at the prompt, enter the following command to encrypt the apptest1.txt file (the /e parameter directs the cipher command to encrypt the file):<br/>
 
-    **cipher /e   C:\Users\Admin\Documents\apptest1.txt**
+    **cipher /e   C:\\Users\\Admin\\Documents\\apptest1.txt**
 
 12. Leave the Command Prompt window open for the next task.
 
@@ -194,7 +194,7 @@ The purpose of this task is to show you how to recover a file that has been encr
 11. You should still have a **Command Prompt** window open from the previous task. Select the **Command Prompt** icon on the taskbar to display the window. If you closed the Command Prompt window at the end of the prior task, then open a command prompt with elevated rights.
 12. In the Command Prompt window, run the following command to decrypt the apptest1.txt file (the /d parameter directs the cipher command to decrypt the file):<br/>
 
-    **cipher /d  C:\Users\Admin\Documents\apptest1.txt**
+    **cipher /d  C:\\Users\\Admin\\Documents\\apptest1.txt**
 
 13.	Close the Command Prompt and Windows Explorer windows and leave the browser, with the Azure Portal website, open.
 

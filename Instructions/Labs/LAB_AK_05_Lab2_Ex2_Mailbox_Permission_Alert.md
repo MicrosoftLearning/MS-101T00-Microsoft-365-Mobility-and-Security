@@ -5,7 +5,7 @@ In this exercise you will configure and test an alert that will notify Lynne Rob
 
 ### Task 1 – Create a Mailbox Permission Alert
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** and into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** and into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
 
 2. In the **Microsoft 365 Security &amp; Compliance center**, in the left-hand navigation pane, select **Alerts,** and then under it, select **Alert policies**.
 
@@ -50,7 +50,7 @@ You have now created an activity alert in the Security & Compliance Center that 
 
 In the prior task, you configured an alert that will notify Lynne Robbins when FullAccess permissions are granted to any mailbox within Adatum. To test this alert, Holly Dickson will change the FullAccess permission on Alex Wilber’s mailbox by granting Joni Sherman FullAccess to his mailbox. This activity should trigger the alert policy that you just created, which should send an alert notification email to Lynne Robbins’ mailbox. You will then log into the Client 2 VM as Lynne Robbins and see if she received this email. 
 
-1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar: **https://outlook.office365.com/ecp/** . This opens the **Exchange admin center**.
 
@@ -70,7 +70,7 @@ In the prior task, you configured an alert that will notify Lynne Robbins when F
 
 	‎Switch to the Client 2 VM (LON-CL2) by selecting the **Virtual machine** field at the top of the screen and selecting **LON-CL2**. 
 
-10. In Lab 1, you had signed into the Client 2 VM as **lon-cl2\admin**, and you logged into Outlook as the MOD Administrator. You should sign out of the MOD Administrator account by selecting the **MA** user icon in the upper-right corner of the screen, and then in the **My Account** pane, select **Sign out**. 
+10. In Lab 1, you had signed into the Client 2 VM as **lon-cl2\\admin**, and you logged into Outlook as the MOD Administrator. You should sign out of the MOD Administrator account by selecting the **MA** user icon in the upper-right corner of the screen, and then in the **My Account** pane, select **Sign out**. 
 
 11.  Once you’re signed out, enter the following URL in the address bar: **https://outlook.office365.com**
 

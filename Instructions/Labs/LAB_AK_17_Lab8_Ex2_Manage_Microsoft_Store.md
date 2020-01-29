@@ -80,7 +80,7 @@ In this exercise, you will add apps to the company store, and then verify how th
 
 In this task, you are going to sign into the Microsoft Store for Business as one of Adatum’s employees, Joni Sherman. You’ll then verify that when Joni navigates to Adatum’s private store, she can see the 5 apps that were automatically added to the private store, as well as the collection of apps that was created in the prior task. 
 
-1. Switch to the Client 2 VM (LON-CL2) where you should be logged in as the **lon-cl1\admin** account, and into Microsoft 365 as Joni Sherman (**jonis@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**.
+1. Switch to the Client 2 VM (LON-CL2) where you should be logged in as the **lon-cl1\\admin** account, and into Microsoft 365 as Joni Sherman (**jonis@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**.
 
 2. If you are still logged into Microsoft 365 as another user, select the circle in the upper right, select **Sign out,** and then close the other tabs in the browser. 
 

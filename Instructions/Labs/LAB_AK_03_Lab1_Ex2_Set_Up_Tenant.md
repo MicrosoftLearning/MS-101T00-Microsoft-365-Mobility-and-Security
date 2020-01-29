@@ -195,7 +195,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 **Note:** While you will validate IRM in Exchange and SharePoint in Lab 3, you must enable IRM for SharePoint Online now because it can take up to 60 minutes or more for IRM to show up in SharePoint Online. By the time you get to the validation exercise in Lab 3, IRM should have finished its internal configuration and you won’t have to wait for it to be present in SharePoint Online.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In the **Microsoft 365 admin center**, scroll down through left-hand navigation pane and under **Admin centers,** select **SharePoint**. This will open the SharePoint admin center.
 
@@ -213,7 +213,7 @@ In this task, you will turn on Information Rights Management (IRM) for SharePoin
 
 In Lab2, you will create Alert Policies using the Security and Compliance Center. However, before you can implement alerts, an admin must first turn on Audit Logging for the organization. Since it can take a couple of hours for audit logging to be fully enabled once you turn it on in the Security and Compliance Center, you will turn it on in this lab so that it&#39;s fully enabled by the time you get to Lab 2.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 2. In your **Edge** browser, enter the following URL in the address bar: **https://protection.office.com.**
 3. In the **Office 365 Security &amp; Compliance center**, in the left-hand navigation pane, select **Search**, and then under it, select **Audit log search**.
 4. In the **Audit log search** window, select **Turn on auditing,** and then confirm the **Your organization settings need to be updated. Do you want to continue?** question by selecting **Yes**.

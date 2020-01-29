@@ -7,7 +7,7 @@ You are now at the point in your pilot project where you want to test policies. 
 
 In this exercise, you will send an email from Holly Dickson to one of your test users, Lynne Robbins. You will then log into Microsoft 365 as Lynne on the Client 2 VM, locate the email in her Inbox, and then assign the email a custom retention tag that you created. This personal retention tag will override the parent folder tag for this specific message, which will be moved to Lynne’s In-Place archive mailbox after 3 years rather than 2 years.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In **Microsoft Edge**, If you have an **Outlook on the web** tab open for Holly, then select it now; otherwise, navigate to **https://outlook.office.com** and sign in as **Holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) using a password of **Pa55w.rd.** 
 

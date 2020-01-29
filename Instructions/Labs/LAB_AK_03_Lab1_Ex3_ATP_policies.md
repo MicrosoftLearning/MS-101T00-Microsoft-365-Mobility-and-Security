@@ -6,7 +6,7 @@ You now have a Global Admin account set up for Holly Dickson, and you&#39;re sig
 
 In this task, you will add the URL **tailspintoys.com** to the company-wide list of blocked URLs, and you will create an ATP safe links recipient policy that applies to all users in your tenant.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** account, and you should still be logged into Microsoft 365 as **Holly Dickson**.
 2. After finishing the previous task, you should still be in the Microsoft 365 Security and Compliance center. If not, in your browser, enter **https://protection.office.com.**
 3. In the **Security &amp; Compliance center**, in the left-hand navigation pane, select **Threat Management** and then select **Policy**.
 4. In the **Policy** window, scroll to the right (if necessary) and select the **ATP Safe Links** tile.
@@ -34,7 +34,7 @@ In this task, you will add the URL **tailspintoys.com** to the company-wide list
 
 In this task, you will test the Safe Links Policy that you just created that blocks links to the http://tailspintoys.com URL.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 2. In your **Microsoft Edge** browser, select the **Microsoft Office Home** tab and then select **Outlook.**
 3. If you receive a **We updated Outlook** message, select **Not Now**, or if you see a **Welcome** message, then close it.
 4. In **Outlook on the web**, select **New Message** in the upper left part of the screen.
@@ -73,7 +73,7 @@ In this task, you will test the Safe Links Policy that you just created that blo
 
 In this task, you will turn on ATP for SharePoint, OneDrive, and Microsoft Teams, and you&#39;ll create an ATP Safe Attachments policy that will test email attachments for malware that are sent to recipients within the M365xZZZZZZ.on microsoft.com domain. You will configure the policy so that if an attachment is blocked, it will be removed from the email that is sent to the recipient, and a copy of the email will be redirected to Joni Sherman for additional review.
 
-1. Switch back to your Client 1 VM (LON-CL1). You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. Switch back to your Client 1 VM (LON-CL1). You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 2. In your **Edge** browser, select the **Office 365 Security &amp; Compliance** tab.
 3. In the **Office 365 Security &amp; Compliance center**, in the left-hand navigation pane under **Threat Management**, select **Policy**.
 4. In the **Policy** window, select the **ATP Safe Attachments** tile.

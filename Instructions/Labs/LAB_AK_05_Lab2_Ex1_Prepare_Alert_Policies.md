@@ -26,7 +26,7 @@ Performing the following steps to assign Lynne Robbins to this role group will e
 
 Perform the following steps to assign Lynne Robbins the Compliance Data Administrator role group, which includes the Compliance Administrator role.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the lon-cl1\admin and into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (LON-CL1) as the lon-cl1\\admin and into Microsoft 365 as Holly Dickson (**holly@M365xZZZZZZ.onmicrosoft.com)** with a password of **Pa55w.rd**. 
 
 2. After finishing the previous lab, you should still be in the **Microsoft 365 Security and Compliance** center in your browser. If not, enter the following URL in the address bar: **https://protection.office.com**
 

@@ -7,7 +7,7 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have Mic
 
 To implement Azure Information Protection as part of your pilot project at Adatum, you must first install the AIP client from the Microsoft Download Center.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** with a password of **Pa55w.rd**. 
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson** with a password of **Pa55w.rd**. 
 
 2. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar: **https://aka.ms/aipclient**
 
@@ -34,7 +34,7 @@ You have successfully installed the AIP client on Client 1 VM.
 
 In this exercise you will create an AIP label and add it to the default policy so that it’s valid for all users of the Adatum tenant.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
 2. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar: **https://portal.azure.com/**
 
@@ -115,7 +115,7 @@ In this exercise you will use the AIP label that you created in the previous tas
 
 ‎For this task, you will sign into Microsoft Azure Information Protection as Alex Wilber, who is a regular user without any elevated privileges.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
 2. In the **Search** box on the taskbar at the bottom of the window, type **Word**. In the menu that appears, select **Word.** 
 
@@ -168,7 +168,7 @@ You have just successfully created an AIP protected Word document that expires t
 
 In the prior task, you created a Word document and protected it with Azure Information Protection by inserting a watermark and restricted permissions. To verify whether the protection that you assigned to the document works, you will send the document to Joni Sherman and to your personal email address and then test what functionality is possible for each user in the document.
 
-1. You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. If you have **Outlook on the web** open in a tab in your **Edge** browser, then select it now and proceed to the next step; otherwise, if you have a tab with the **Microsoft Office Home** page, then select the tab, select **Outlook**, and then proceed to the next step**.** If you have neither tab open, then in a new tab enter **https://outlook.office365.com** and sign in as **holly@M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
 

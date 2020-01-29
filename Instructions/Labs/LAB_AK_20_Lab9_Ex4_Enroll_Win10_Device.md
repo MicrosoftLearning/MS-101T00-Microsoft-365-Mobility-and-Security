@@ -6,7 +6,7 @@ During her pilot project, Holly plans to use certificates with Intune to authent
 
 ### Task 1: Verify the device is not enrolled
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** and into Microsoft 365 as **Holly Dickson**.
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** and into Microsoft 365 as **Holly Dickson**.
 2. In the **Azure portal**, in the navigation thread at the top of the screen (**Home > Microsoft Intune > Device configuration)**, select **Microsoft Intune**.
 3. In the **Microsoft Intune – Overview** page, in the middle pane under **Manage**, select **Devices**.
 4. On the **Devices** pane, scroll to the bottom of the detail pane on the right and verify that no device is currently enrolled to Intune.
@@ -36,7 +36,7 @@ During her pilot project, Holly plans to use certificates with Intune to authent
 
     **Note** : Those certificates were added when you joined the LON-CL2 device to Azure AD and enrolled it to Intune.
 4. Close the **certlm – [Certificates – Local Computer]**  console.
-5. Switch to the Client 1 VM (**LON-CL1**). You should still be logged in as **lon-cl1\admin**, and you should still be logged into the Azure portal as **Holly Dickson**.
+5. Switch to the Client 1 VM (**LON-CL1**). You should still be logged in as **lon-cl1\\admin**, and you should still be logged into the Azure portal as **Holly Dickson**.
 6. In your **Edge** browser, in the **Azure portal**, the **Device configuration – Profiles** window should be displayed from the prior task.
 7. In the navigation thread that appears at the top of the page (**Home > Microsoft Intune > Device configuration – Profiles**), select **Microsoft Intune.**
 8. In the **Microsoft Intune – Overview** window, in the middle pane under **Manage**, select **Devices**.

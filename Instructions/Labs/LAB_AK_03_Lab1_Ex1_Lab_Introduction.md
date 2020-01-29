@@ -21,7 +21,7 @@ The labs in this course will use two virtual machines:
 
 **Important:** A local administrator account has been created on the client VMs. These will be the accounts that you use to log into each VM. As you will see on the desktop, you can log into each machine as either an admin or student account. All MS-101 lab exercises will use the admin account for login. The password of the admin account is **Pa55w.rd** (**Note**: the password for ALL user accounts in the MS-101 labs is **Pa55w.rd)**.
 
-Since the MS-101 lab scenario involves a cloud-only deployment, you will not be logging into an on-premises domain, since no such domain exists. Following your login, the desktop will indicate that you are logged in as either **lon-cl1\admin** or **lon-cl2\admin**, depending on which machine you are on.
+Since the MS-101 lab scenario involves a cloud-only deployment, you will not be logging into an on-premises domain, since no such domain exists. Following your login, the desktop will indicate that you are logged in as either **lon-cl1\\admin** or **lon-cl2\\admin**, depending on which machine you are on.
 
 Your Office 365 tenant came with a default global administrator account already created in Microsoft 365. The name of this user account is **MOD Administrator**. The username for this MOD Administrator account is **admin@M365xZZZZZZ.onmicrosoft.com**, which is the username assigned to your tenant in the **O365 Credentials** window (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). When you sign into Office 365 with this **admin@M365xZZZZZZ.onmicrosoft.com** username, your user initials of **MA** (for **M** OD **A** dministrator) will display in a circle as the user icon in the upper right corner of the Office 365 screens.
 

@@ -9,7 +9,7 @@ In this exercise you will test a default Microsoft 365 alert policy that will no
 
 In this task, you will verify whether a default Microsoft 365 alert is triggered when somebody in your tenant creates an eDiscovery case or exports data from an existing case. Holly Dickson is a part of the Tenant Admins in your tenant and will be one of the recipients of this alert. 
 
-1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In your **Microsoft Edge** browser, select the **Microsoft 365 Security &amp; Compliance Center** tab.
 
@@ -35,7 +35,7 @@ You have now reviewed the default Microsoft 365 eDiscovery alert that notifies t
 
 To test this default alert, Holly Dickson will create an eDiscovery case. This activity should trigger the alert policy, which should send an alert notification email to all tenant admins. Since Holly is a Tenant Admin, she should receive this alert. 
 
-1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In your **Microsoft Edge** browser, select the **Microsoft 365 Security &amp; Compliance Center** tab. 
 

@@ -7,7 +7,7 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have Mic
 
 In this exercise, you will add Joni Sherman and Holly Dickson as members of the eDiscovery Manger role, and then you’ll log into the Client VM as Joni and perform a content search that looks for emails with the keyword IP address.
 
-1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into your Client 1 VM (LON-CL1) as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In your **Microsoft Edge** browser, if you have the **Security and Compliance Center** open in a tab, then select it; otherwise, open a new tab and enter the following URL in the address bar: **https://protection.office.com**.
 
@@ -27,7 +27,7 @@ In this exercise, you will add Joni Sherman and Holly Dickson as members of the 
 
 9. You should see a banner with the message **2 members added**. Select **Done** and then **Save**.
 
-10. Switch to the Client 2 VM (LON-CL2). You should still be logged into LON-CL2 as the **lon-cl2\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman** from the prior lab. 
+10. Switch to the Client 2 VM (LON-CL2). You should still be logged into LON-CL2 as the **lon-cl2\\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman** from the prior lab. 
 
 11. If you have a tab open in your **Edge** browser for the **Microsoft 365 Security and Compliance Center**, then select it now. Otherwise, select a new tab and enter the following URL in the address bar: **https://protection.office.com**.
 
@@ -55,7 +55,7 @@ You have successfully assigned an eDiscovery role to Joni and performed a conten
 
 In this task, you will create an eDiscovery case with a configured hold and content search for any violations regarding IP addresses. You will continue using Joni Sherman’s user account. Having been assigned the eDiscovery Managers role in the prior task, Joni has the permissions necessary to create an eDiscovery case.
 
-1. You should still be logged into your Client 2 VM (LON-CL2) as the **lon-cl2\admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using a password of **Pa55w.rd**.
+1. You should still be logged into your Client 2 VM (LON-CL2) as the **lon-cl2\\admin** account and signed into Microsoft 365 as Joni Sherman. However, if you have been signed out of Microsoft 365, then on the Microsoft 365 sign-in page, sign into Joni’s **JoniS@M365xZZZZZZ.onmicrosoft.com** account using a password of **Pa55w.rd**.
 
 2. The **Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: **https://protection.office.com.** 
 

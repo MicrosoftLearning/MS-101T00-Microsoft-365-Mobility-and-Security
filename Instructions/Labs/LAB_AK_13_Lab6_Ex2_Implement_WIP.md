@@ -6,7 +6,7 @@ Now that you have implemented Azure Information Protection as part of your pilot
 
 In this lesson you will create a WIP policy and assign it to the WIP Users group that you created in an earlier lab. 
 
-1. Switch to the Client 1 VM (LON-CL1). You should still be logged into your Client 1 VM as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson.** 
+1. Switch to the Client 1 VM (LON-CL1). You should still be logged into your Client 1 VM as the **lon-cl1\\admin** account, and you should be logged into Microsoft 365 as **Holly Dickson.** 
 
 2. In **Microsoft Edge**, if you have the Azure portal open in a tab, then select it now; otherwise, enter **https://portal.azure.com/** and, if necessary, sign in as **holly@M365xZZZZZZ.onmicrosoft.com.**
 
@@ -61,7 +61,7 @@ You have now created an **App protection policy** (which is a Windows Informatio
 
 In this exercise you will enroll the Client 2 VM (LON-CL2) to Azure AD and test the Windows Information Protection policy that you created in the prior task by creating a work document and then copy and pasting from it to a personal location. This will test the WIP protection feature that prevents copy and pasting between a protected Word document and an untrusted website in your Edge browser Since the WIP policy that you created was assigned to the WIP Users group, you must switch to the Client 2 VM and create the document while signed in as Joni, who is one of the members of the WIP Users group.
 
-1. Switch to your Client 2 VM (LON-CL2) as the **lon-cl2\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**. 
+1. Switch to your Client 2 VM (LON-CL2) as the **lon-cl2\\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**. 
 
 2. In the **Search** box on the taskbar at the bottom of the window, type **Work**. In the menu that appears, select **Access work or school**.
 

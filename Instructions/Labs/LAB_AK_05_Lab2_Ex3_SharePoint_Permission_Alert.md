@@ -5,7 +5,7 @@ In this exercise you will configure and test an alert that will notify Lynne Rob
 
 ### Task 1 – Create a SharePoint Permissions Alert
 
-1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\\admin,** and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In the **Microsoft 365 Security &amp; Compliance center**, in the **Alert policies** window, select **+New alert policy**.
 
@@ -47,7 +47,7 @@ You have now configured an additional alert policy that monitors when a site col
 
 In the prior task, you configured an alert that will notify Lynne Robbins when a site collection admin is added to a site collection. To test this alert, Holly Dickson will add Alex Wilber as a site collection admin to the first default site collection named Communication site. This activity should trigger the alert policy that you just created, which should send an alert notification email to Lynne Robbins’ mailbox. You will then switch to the Client 2 VM to see if Lynne received this email. 
 
-1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. You should still be logged into the Client 1 VM (LON-CL1) as **lon-cl1\\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. In your **Microsoft Edge** browser, open a new tab and enter the following URL in the address bar: **https://M365xZZZZZZ.sharepoint.com/_layouts/15/settings.aspx** (replace ZZZZZZ with the tenant ID provided by your lab hosting provider). This opens the **Site Settings** for the global SharePoint Communication site.
 
@@ -61,7 +61,7 @@ In the prior task, you configured an alert that will notify Lynne Robbins when a
 
 	‎Switch to the Client 2 VM (LON-CL2) by selecting the **Virtual machine** field at the top of the screen and selecting LON-CL2. 
 
-7. You should still be logged into the Client 2 VM as **lon-cl2\admin** and into **Outlook on the web** as **Lynne Robbins**. 
+7. You should still be logged into the Client 2 VM as **lon-cl2\\admin** and into **Outlook on the web** as **Lynne Robbins**. 
 
 8. After a few minutes, an email from the Alerts notification system will be sent to Lynne’s Inbox to let her know that Holly Dickson has added a new site collection admin to a SharePoint site collection. Open the email and review the contents, then close the message.
 

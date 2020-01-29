@@ -8,7 +8,7 @@ In this exercise you will set up Azure Rights Management for your tenant. You wi
 ### Task 1 – Enable Azure Rights Management for Exchange Online
 
 In this task you will use Windows PowerShell to access Exchange Online and then, through a string of commands, you will confirm that Azure RMS is active.  
-1. Switch to the Client 1 VM (LON-CL1). You should still be logged into LON-CL1 as **lon-cl1\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
+1. Switch to the Client 1 VM (LON-CL1). You should still be logged into LON-CL1 as **lon-cl1\\admin**, and you should still be logged into Microsoft 365 as **Holly Dickson**. 
 
 2. To open Windows PowerShell, select the magnifying glass (Search Windows) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. 
 

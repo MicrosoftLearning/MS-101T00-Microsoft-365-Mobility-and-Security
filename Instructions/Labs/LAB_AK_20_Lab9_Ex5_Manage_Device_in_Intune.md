@@ -7,7 +7,7 @@ As part of managing devices in Intune, Holly will create dynamic groups in the A
 
 ### Task 1: Create device categories
 
-1. In the LON-CL1 VM, you should still be logged in as **lon-cl1\admin**, and you should still be logged into the Azure portal as **Holly Dickson**.
+1. In the LON-CL1 VM, you should still be logged in as **lon-cl1\\admin**, and you should still be logged into the Azure portal as **Holly Dickson**.
 2. In the **Azure portal**, in the navigation thread at the top of the screen (**Home > Microsoft Intune > Devices – Azure AD Devices**), select **Microsoft Intune**.
 3. In the **Microsoft Intune – Overview** page, in the middle pane under **Manage,** select **Device enrollment**.
 4. On the **Device enrollment** pane, in the middle pane under **Manage**, select **Device categories.**
