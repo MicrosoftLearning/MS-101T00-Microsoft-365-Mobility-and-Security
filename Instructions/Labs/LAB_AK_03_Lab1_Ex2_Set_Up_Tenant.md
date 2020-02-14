@@ -62,8 +62,8 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 
 18. Select **Save**.
 19. Select **Close.**
-20. To the right of **Release preferences**, select the **pencil** (**Edit)** icon.
-21. In the **Release preferences** window, select **targeted release for selected users** and then select **Next**.<br/>
+20. Select **Release preferences**.
+21. In the **Release preferences** window, select **targeted release for selected users** and then select **Save changes**.<br/>
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
@@ -71,18 +71,18 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they've been reviewed by the control group.
 
-23. In the **Release preferences** window, select **Add people.**
-24. In the **Manage people for First release** window, in the list of targeted release users, select the checkboxes for **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and **MOD Administrator** and then select **Save**.<br/>
+23. In the **Release preferences** window, select **Select users.**
+24. In the **Choose users for targeted release** window, search for **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and **MOD Administrator**, select the users and then select **Save changes**.<br/>
 
     **Note:** Alex, Joni, and Lynne are administrators who are part of your pilot team. Their accounts will be used throughout the labs for this course.
 
-25. Select **Close**, and then select **Close** again. This returns you to the **Organization Profile** window.
-26. To the right of **Manage custom themes for your organization**, select the **pencil (Edit)** icon.
-27. In the **Customize Office 365 for your organization** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color.Go ahead and explore some different options for your tenant. Make any changes that you wish.<br/>
+25. Select **Close**. This returns you to the **Organization Profile** window.
+26. Select **Custom themes**.
+27. In the **Custom themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color.Go ahead and explore some different options for your tenant. Make any changes that you wish.<br/>
 
     **NOTE:** Some colors patterns aesthetically distract users. Avoid using high contrasting colors together, such as neon colors and high-resolution colors like white and bright pink.
 
-28. Once you're done exploring and making any further changes, select **Save** and then **Close**.
+28. Once you're done exploring and making any further changes, select **Save changes** and then **Close**.
 29. Remain logged into the Client 1 VM with Microsoft Edge open to the Microsoft 365 admin center for the next task.
 
 
