@@ -12,9 +12,13 @@ As part of managing devices in Intune, Holly will create dynamic groups in the A
 3. In the **Microsoft Intune – Overview** page, in the middle pane under **Manage,** select **Device enrollment**.
 4. On the **Device enrollment** pane, in the middle pane under **Manage**, select **Device categories.**
 5. In the detail pane on the right, select **+Create device category**.
-6. On the **Create device category** pane, in the **Category** text box, enter **Mobile Device** and then select **Create**.
-7. On the **Device enrollment – Device categories** window, select **+Create device category**.
-8. On the **Create device category** pane, in the **Category** text box, enter **Desktops** and then select **Create**.
+6. On the **Create device category** page, under the **Basics** pane, in the **Name** text box, enter **Mobile Device** and then select **Next**.
+7. On the **Scope tags** pane, select **Next**.
+8. On the **Review + create** pane, select **Create**
+9. On the **Device enrollment – Device categories** window, select **+Create device category**.
+10. On the **Create device category**, under the **Basics** pane, in the **Name** text box, enter **Desktops** and then select **Create**.
+11. On the **Scope tags** pane, select **Next**.
+12. On the **Review + create** pane, select **Create**
 
 ### Task 2: Manage a device and assign it to a category
 
@@ -43,14 +47,14 @@ As part of managing devices in Intune, Holly will create dynamic groups in the A
     - Group name: **Mobile Devices**
     - Membership type: **Dynamic Device**
 
-5. Select the **Dynamic device members** section.
+5. Below the **Dynamic device members** section, select **Add dynamic query**.
 6. On the **Dynamic membership rules** window, hover your mouse over the row to display the rule fields, and then enter the following values:
 
     - Property:   **deviceCategory**
     - Operator: **Equals**
     - Value: enter **Mobile Device**
 
-7. Select in the **Rule syntax** field to review the query syntax.
+7. Select in the **Rule syntax** field to review the query syntax **(device.deviceCategory -eq "Mobile Device")**.
 8. Select **Save.**
 9. On the **New Group** window, select **Create.** The Mobile Device group should now appear in the list of groups.
 
