@@ -36,7 +36,7 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 
 12. If you receive a **Networks** warning message asking if you want this PC to be discoverable by other PCs and devices on this network, select **No.**
 13. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
-14. In the left-hand navigation pane, select **Settings** and then under it, select **Organization profile**.
+14. In the left-hand navigation pane, select **Settings**, under it Select **Settings**, select **Organization profile**.
 15. In the **Organization Profile** window, it displays Contoso as the organization name. To the right of this, select the **pencil** (**Edit)** icon to change this information.
 
     **Note:** The Contoso organization name was explained in the Introduction section at the start of this lab. In the following steps, you will change it to Adatum Corporation.
@@ -61,27 +61,27 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 
 17. Select **Save**.
 18. Select **Close.**
-19. To the right of **Release preferences**, select the **pencil** (**Edit)** icon.
-20. In the **Release preferences** window, select **targeted release for selected users** and then select **Next**.<br/>
+19. Select **Release Preferences**
+20. In the **Release preferences** window, select **targeted release for selected users** and then select **Save Changes*.<br/>
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
-21. In the **Are you sure you want to change to Targeted release for select people** window, select **Yes**.
+21. In Release Prefrences select **Select Users**.
 
     **Note:** This option enables you to create a control group of users who will preview updates so that you can prepare the updates for your entire organization. The **Targeted release for everyone** option is more commonly used in development environments, where you can get updates early for your entire organization. In non-development environments, such as Adatum, targeted release to select people is the more typical preference as it enables an organization to control when it wants to make updates available to everyone once they've been reviewed by the control group.
 
-22. In the **Release preferences** window, select **Add people.**
-23. In the **Manage people for First release** window, in the list of targeted release users, select the checkboxes for **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and **MOD Administrator** and then select **Save**.<br/>
+22. In the **Choose users for targeted release** type the names in the next step into the **Who should receive targeted release? box**
+23. Type each user anem and select it to add to the list  **Alex Wilber**, **Joni Sherman**, **Lynne Robbins**, and **MOD Administrator** and then select **Save changes**.<br/>
 
     **Note:** Alex, Joni, and Lynne are administrators who are part of your pilot team. Their accounts will be used throughout the labs for this course.
 
-24. Select **Close**, and then select **Close** again. This returns you to the **Organization Profile** window.
-25. To the right of **Manage custom themes for your organization**, select the **pencil (Edit)** icon.
-26. In the **Customize Office 365 for your organization** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color.Go ahead and explore some different options for your tenant. Make any changes that you wish.<br/>
+24. Select **X** in uppe right to close **Release Prefrences**. This returns you to the **Organization Profile** window.
+25. Select **Custom themes**  in the **Organizational profile** window
+26. In the **Custome themes** window, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color.Go ahead and explore some different options for your tenant. Make any changes that you wish.<br/>
 
     **NOTE:** Some colors patterns aesthetically distract users. Avoid using high contrasting colors together, such as neon colors and high-resolution colors like white and bright pink.
 
-27. Once you're done exploring and making any further changes, select **Save** and then **Close**.
+27. Once you're done exploring and making any further changes, select **Save Changes** and then **x** in upper right to close.
 28. Remain logged into the Client 1 VM with Microsoft Edge open to the Microsoft 365 admin center for the next task.
 
 
@@ -123,7 +123,7 @@ Holly Dickson is Adatum&#39;s Enterprise Administrator. Since she doesn&#39;t ha
 
 6. Select **Next.**
 7. In the **Optional settings** window, select the drop-down arrow to the right of **Roles.**
-8. In the **Roles** section, uncheck **User (no administrator access).** By doing so, all the Microsoft 365 administrator roles are available to be assigned. Select **Global Administrator** and then select **Next**.
+8. In the **Roles** section, select **Admin center access**.   By doing so, all the Microsoft 365 administrator roles are available to be assigned. Select **Global Admin** and then select **Next**.
 9. On the **You&#39;re almost done – review and finish adding** window, review your selections. If anything needs to be changed, select the appropriate **Edit** link and make the necessary changes. Otherwise, if everything looks good, select **Finish adding**.
 10. On the **Holly Dickson has been added** page, select **Close.**
 11. If a screen appears that asks you to provide feedback on your experience, select **Cancel** to close it.
