@@ -39,6 +39,8 @@ Devices must be managed before you can give users access to company resources or
 4. On the **All services** window, enter **Intune** in the **Search** box, and then in the details pane on the right, select **Intune**.
 5. In the **Microsoft Intune – Overview** page, in the middle pane, select **Device enrollment**.
 6. In the **Choose MDM Authority** window that appears, select **Intune MDM Authority** and then select **Choose**.
+**Note:** The MDM authority is already activated, if you are not prompted to choose one, look at the top of the essentials section where you will see MDM authority is Microsoft Intune and Account status is Active
+
 7. On the **Device enrollment** page, note the information at the top of the detail pane. Intune is now Adatum's MDM authority.
 8. In the navigation thread at the top of the page (**Home > Microsoft Intune > Device enrollment**), select **Microsoft Intune**.
 9. In the **Microsoft Intune – Overview** page, in the middle pane, select **Device compliance**. Even though no data is currently available, review the information that will be presented for this option regarding device management.
