@@ -62,7 +62,7 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 17. Select **Save**.
 18. Select **Close.**
 19. Select **Release Preferences**
-20. In the **Release preferences** window, select **targeted release for selected users** and then select **Save Changes*.<br/>
+20. In the **Release preferences** window, select **targeted release for selected users** and then select **Save Changes**.<br/>
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates applied to your environment automatically, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Office 365 tenant receives these updates.
 
