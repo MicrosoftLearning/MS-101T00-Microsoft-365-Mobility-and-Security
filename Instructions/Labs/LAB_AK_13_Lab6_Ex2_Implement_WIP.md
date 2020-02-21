@@ -18,41 +18,24 @@ In this lesson you will create a WIP policy and assign it to the WIP Users group
 
 6. In the **Client apps** window, in the middle pane under **Manage**, select **App protection policies**.
 
-7. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create a policy** from the top menu bar.
+7. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create a policy** from the top menu bar. **Select Windows 10**
 
-8. In the **Create policy** window, enter the following information:
+8. On **Basics** tab enter name **WIP Client Protection**, under **enrollement state** click **drop down** and choose  **wiht enrollement** and then select **Next**.
 
-	- Name: **WIP Client Protection**
+9. on **Targeted apps** tab, under Protected apps select **+Add**, scroll to the bottom and select **Office-365-ProPlus-1810-Allowed.xml** click **Ok** and select **Next**.
 
-	- Description: leave blank
+10. On the **Required settings** tab, select **Block** for **Windows information protection mode**.
 
-	- Platform: **Windows 10**
+11. In the **Corporate identity field**, verify that it says **M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID.) and click **Next**
 
-	- Enrollment state: **With enrollment**
+12.  On the **Assignments tab** under **Included groups** click **+Select groups to include**, choose **WIP Users** click **Select** and click **Next**.  
 
-	- Protected apps: select the right arrow, and in the **Protected apps** window, select **Add apps**. In the **Add apps** window, scroll to the bottom and select **Office-365-ProPlus-1810-Allowed.xml** (this file may be difficult to find in the list because the file name is cut off in the display; however, it’s the only file whose **Type** equals **AppLocker File**, so that may help you locate the file a little easier) and then select **OK**. On the **Protected apps** screen, select **OK**.
+13. On the **Review settings** tab click **Create**.
 
-	- Exempt apps: leave blank as there are no exempt apps in this policy
+14. In the **App protection policies** list observer the **WIP Client Protection** policy status under deployed should indicate **Yes**
+If the status under deployed indicates **NO**, wait a few minutes and refresh the page till the deplyed status changes to **Yes**.
 
-	- Required settings: select the right arrow and in the **Required settings** window, in the **Windows Information Protection mode** setting, select **Block**. In the **Corporate identity** field, verify that it says **M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID provided by your lab hosting provider) and then select **OK.**
-
-	- Advanced settings: do not change the default value
-
-9. Select **Create** on the bottom of the screen.
-
-10. On the **Client apps - App protection policies** window, in the right-hand pane, note the value of the **Deployed** column is **No** for the **WIP Client Protection** policy that you just created. You are now going to deploy this policy. Select the **WIP Client Protection** policy.
-
-11. In the **Intune App Protection** window, in the middle pane under the **Manage** section, select **Assignments**.
-
-12. In the **Intune App Protection - Assignments** window, in the right-hand pane, under the **SELECTED GROUPS** section, select **Select groups to include.**
-
-13. In the **Select groups to include** window, select the **WIP Users** group and then select **Select** at bottom of the screen.
-
-14. In the menu bar at the top of the right-hand pane, select **Save**.
-
-15. In the navigation thread at the top of the window (above the **Intune App Protection - Assignments** title), select **Client apps – App protection policies**. In the list of policies in the right-hand pane, note the value of the **Deployed** column has now changed from **No** to **Yes** for the **WIP Client Protection** policy.
-
-16. Leave your Client 1 VM and browser open for the next lab.
+15. Leave your Client 1 VM and browser open for the next lab.
 
 You have now created an **App protection policy** (which is a Windows Information Protection policy) that protects files in Office 365 ProPlus for users with enrolled devices in the **WIP Users** group.
 
