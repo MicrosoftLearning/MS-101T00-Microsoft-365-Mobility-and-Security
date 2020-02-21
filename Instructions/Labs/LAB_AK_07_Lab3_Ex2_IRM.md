@@ -65,7 +65,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 2. The **SharePoint admin center** tab should still be open in your browser from Lab 1 when you enabled IRM for SharePoint Online; if so, select this tab now. However, if you closed this tab, then In the **Microsoft 365 admin center**, scroll down through left-hand navigation pane and under **Admin centers**, select **SharePoint**. This will open the SharePoint admin center.
 
-3. In the **SharePoint admin center**, in the left-hand navigation pane, select **Classic features**, then scroll down to the bottom of the **Classic features** page, select **More classic features** and under **Classic site collections page**, select **Open**.
+3. In the **SharePoint admin center**, select **More features** and under **Classic site collections page**, select **Open**.
 
 4. On the **Site Collections** window, in the ribbon at the top, select **New** and then select **Private Site Collection**
 
@@ -121,7 +121,7 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 23. Select **File** and **Save**. In the **Save As** window, under **This PC**, select **Desktop.** Type **TestDocument** in the **File name** field, and in the **Save as type** field, select **Office Open XML Document (*.docx)**. 
 
-24. Close WordPad.
+24. Close WordPad. Drag and Drop the **TestDocument** into the Marketing SharePoint Library 
 
 25. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (LON-CL2) VM.<br/>
 
@@ -133,17 +133,13 @@ You will begin by having Holly create a new SharePoint site collection, configur
 
 28. Select **Documents** on the left-hand pane.  
 
-29. On the **Documents** page, in the menu bar, select **Upload**, and then in the drop-down menu select **Files**. 
+29. In the list of Documents, right-click on **TestDocument.docx**, select **Open**, and then select **Open in browser**. 
 
-30. In the **File Explorer** window, select **Desktop** under the **Quick access** section, select **TestDocument.docx**, and then select **Open**. This will upload the file to the **Documents** page in the **Marketing** site collection.
+30. Verify that the **Marketing Policy** displays in a warning message at the top of the page. 
 
-31. In the list of Documents, right-click on **TestDocument.docx**, select **Open**, and then select **Open in browser**. 
+31. Try to enter some text in the document. Verify that Alex cannot edit the document in Word Online because it’s protected in this site collection. A Read-only information line will display at the top of the page indicating the document is read-only.
 
-32. Verify that the **Marketing Policy** displays in a warning message at the top of the page. 
-
-33. Try to enter some text in the document. Verify that Alex cannot edit the document in Word Online because it’s protected in this site collection. A Read-only information line will display at the top of the page indicating the document is read-only.
-
-34. Leave your browser open for the next lab. 
+32. Leave your browser open for the next lab. 
 
 
 # End of Lab 3
