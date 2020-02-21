@@ -71,32 +71,23 @@ In this lab, you will be creating a WIP policy that protects an entire collectio
 2. On the **All services** window, enter **Intune** in the **Search** box, and then in the details pane on the right, select **Intune**.
 3. In the **Microsoft Intune – Overview** window, in the middle pane under the **Manage** group, select **Client apps**.
 4. In the **Client apps** window, in the middle pane under the **Manage** group, select **App protection policies.**
-5. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create Policy.**
-6. In the **Create policy** window, enter the following information:
-
-    - Name: **Win10Policy**
-    - Description: **Windows Information Protection Policy for Windows 10 computers**
-    - Platform: **Windows 10**
-    - Enrollment state. **With Enrollment**
-
-7. Select the **Protected apps** group.
-8. In the **Protected apps** window, select **Add apps.** You're first going to add all the recommended apps.
-9. In the **Add apps** window, select the check box to the left of the **NAME** column heading to select all app, select **OK.**
-10. In the **Protected apps** window, select **Add apps.** In the remaining steps, you&#39;re going to add a Store app, which in this case is **Microsoft Power BI**.
-11. In the **Add apps** window, the drop-down field at the top of the page displays **Recommended apps**. Select this field, and in the drop-down menu, select **Store apps**.
-12. In the **Add apps** window, enter the following information:
+5. In the **Client apps – App protection policies** window, in the right-hand pane, select **+Create Policy**, select **Windows 10**
+6. On the **Basics** tab enter the name **Win10Policy**, under **enrollment state** click the drop down arrow and select **with enrollment**, select **Next**.
+7. on the **Targeted apps** tab, under **Protected apps** click **+Add**, select the **checkbox** left of the **Name** column heading to select all apps and select **OK**.
+8. Under **Protected apps**, select **+Add**, in the drop-down field at the top of the page displays **Recommended apps**. Select this field, and in the drop-down menu, select **Store apps**.
+9. In the **Add apps** window, enter the following information and click **OK:**.
 
     - Name: **Microsoft Power BI**
     - Publisher: **CN=Microsoft Corporation, o=Microsoft Corporation, L=Redmond, S=Washington, C=US**
     - Product Name: **Microsoft.microsoftpowerBIforWindows**
-    - Action: **Allow**
-
-13. Select **OK.**
-14. On the **Protected apps** window, select **OK.**
-15. On the **Create policy** window, select **Create.**
+   
+10. On the **Targeted apps** tab select **Next**.
+11. On the **Required settings** tab choose **Block**.  In the Corporate identity field, verify that it displays **M365xZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your tenant ID.), select **Next**.
+12. On the **Advanced settings** tab review the options but do not change anything and select **Next**
+13. On the Assignments tab click **Next**.
+14. On the **Review settings** tab, select **Create.**
 
 You have just created a new App Protection Policy (APP), also called a Windows Information Protection Policy (WIP).
-
 
 ### Task 4: Add the EFS DRA Certificate to your WIP Policy
 
@@ -106,7 +97,7 @@ You now want to use Microsoft Intune to add your EFS DRA certificate to the WIP 
 2. On the **Microsoft Intune – Overview** window, in the middle pane under the **Manage** section, select **Client apps**.
 3. In the **Client apps** window, in the middle pane under the **Manage** section, select **App protection policies**.
 4. In the **Client apps – App protection policies** window, in the detail pane on the right, select **Win10Policy**.
-5. In the **Intune App Protection** window for **Win10Policy**, in the middle pane under the **Manage** section, select **Advanced settings**.
+5. In the **Intune App Protection** window for **Win10Policy**, in the middle pane under the **Manage** section, select **Properties**, in the middle pane scroll down and select **edit** next to **Advanced settings**.
 6. In the **Intune App Protection – Advanced settings** window, in the detail pane on the right, under the **Data protection** section, select the field under **Upload a Data Recovery Agent (DRA) certificate to allow recovery of encrypted data**.
 7. In the **File Explorer** window that appears, expand **Local Disk (C:)**, expand **Users**, and then select the **Admin** Scroll down through the files in the Admin folder, select **DRAcert.CER**, and then select **Open**.<br/>
 
