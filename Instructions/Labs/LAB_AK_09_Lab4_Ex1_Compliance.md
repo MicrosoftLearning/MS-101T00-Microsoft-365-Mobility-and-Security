@@ -83,6 +83,8 @@ In this task you will activate MDM auto-enrollment for new devices in your Adatu
 
 16. In the **Choose MDM Authority** pane in the middle of the screen, you are requested to choose whether Intune or Configuration Manager is your mobile device management authority. Scroll to the bottom of the pane, select **Intune MDM Authority,** and then select **Choose**.
 
+	**Note:**  The MDM authority may already be activated, if you are not prompted to choose one, look at the top of the essentials section where you will see **MDM authority** is Microsoft Intune and **Account status** is Active
+
 17. In your Microsoft Edge browser, you can close the Azure portal tab, which should return you to the Microsoft 365 admin center tab.
 
 You have configured automatic enrollment in Intune for devices of users in the WIP Users security group.
