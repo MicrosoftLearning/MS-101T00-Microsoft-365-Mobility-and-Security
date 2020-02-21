@@ -8,7 +8,7 @@ In this next phase of your Adatum pilot project, you will access the Security & 
 
 1. In **Microsoft Edge**, select a new tab and enter the following URL in the address bar: **https://protection.office.com**. This opens the Office 365 Security & Compliance Center.
 
-2. In the **Security &amp; Compliance Center**, in the left-hand navigation pane, select **Data Governance** and then under it, select **Archive**.
+2. In the **Security &amp; Compliance Center**, in the left-hand navigation pane, select **Information Governance** and then under it, select **Archive**.
 
 3. On the **Archive** window, note that the archive mailboxes for all users other than Holly Dickson are enabled. These archive mailboxes were enabled when the VMs were built for this training course and these users were preconfigured in the tenant. However, since Holly was added in Lab 1, her archive mailbox is disabled by default.
 
