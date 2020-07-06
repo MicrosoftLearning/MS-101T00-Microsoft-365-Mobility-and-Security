@@ -36,8 +36,8 @@ In your role as Holly Dickson, Adatum&#39;s Enterprise Administrator, you have b
 
 	In the list of Office 365 apps on the home page, select **Admin**; this opens the **Microsoft 365 admin center.**
 10. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select the **Show All** ellipsis … icon to display all the navigation menu options.
-11. In the left-hand navigation pane, select **Settings** and then under it, select **Settings**. 
-12. In the **Settings** page, select the **Organization profile** tab.
+11. In the left-hand navigation pane, select **Settings** and then under it, select **Org Settings**. 
+12. In the **Org Settings** page, select the **Organization profile** tab.
 13. In the **Organization Profile** tab on the **Settings** page, select **Organization information** from the list organization settings.
 14. In the **Organization information** pane that appears, enter the following information:
 
