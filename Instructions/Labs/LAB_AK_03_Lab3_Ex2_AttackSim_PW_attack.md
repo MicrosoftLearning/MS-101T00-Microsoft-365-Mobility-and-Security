@@ -56,7 +56,7 @@ You will now review the results of the Brute Force Password attack.
 
 ### Task 3: Configure and launch a Password Spray attack 
 
-A password spray attack against an organization is typically done by running a list of commonly used passwords against a list of valid Office 365 user accounts. Typically, the attacker crafts one password to try against all the known user accounts. If the attack is not successful, the attacker will try again using another carefully crafted password, usually with a waiting period between attempts to avoid policy-based account lockout triggers. For her pilot project, Holly is once again going to use Lynne Robbins as her test case. 
+A password spray attack against an organization is typically done by running a commonly used password against a list of valid Office 365 user accounts. Typically, the attacker crafts one password to try against all the known user accounts. If the attack is not successful, the attacker will try again using another carefully crafted password, usually with a waiting period between attempts to avoid policy-based account lockout triggers. For her pilot project, Holly is once again going to use Lynne Robbins as her test case. 
 
 1. You should still be in LON-CL1 and signed in as the **Admin** with a password of **Pa55w.rd**; if not, then sign in now.  
 
@@ -68,9 +68,9 @@ A password spray attack against an organization is typically done by running a l
 
 5. In the **Select user accounts which to attempt the password attack** page, select the **Address Book** button, enter **Lynne** in the **Search** field, select **Lynne Robbins** from the drop-down list of users, and then select **Next**.
 
-6. In the **Choose attack settings** page, enter the following list of passwords. Unlike the Brute Force password test, this Spray test allows you to enter all passwords in the field at one time; simply include a space in between each one. Enter the following passwords in the **Password** field: **P@ssw0rd Pa$$w0rd Pa55w.rd**
+6. In the **Choose attack settings** page, enter the following list of passwords. Unlike the Brute Force password test, this Spray test allows you to enter only one password in the field. Enter the following password in the **Password** field: **Pa55w.rd**
 	
-	**Note:** You will enter Lynne's actual password on purpose to check the results when a password match occurs. Once you have added all the passwords, select **Next**.
+	**Note:** You will enter Lynne's actual password on purpose to check the results when a password match occurs. Once you have added the password, select **Next**.
 
 7. In the **Confirmation** page, select **Finish** to run the simulation.
 
