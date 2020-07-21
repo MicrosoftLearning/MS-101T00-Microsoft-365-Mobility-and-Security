@@ -97,55 +97,55 @@ You will begin by having Holly create a new SharePoint site collection. You will
 
 15. In the **Create a permission policy title** field, enter **Marketing Policy**. 
 
-16. In the **Add a permission policy description** field, enter **Marketing policy for downloads**. 
+16. In the **Add a permission policy description** field, enter **Marketing policy for downloads** and then select **OK**. 
 
-17. Select **SHOW OPTIONS**. 
+1. In the top-right corner of the **Documents > Settings** page, select **Share**.
 
-18. In the **Configure document access rights** section, select the **Allow viewers to write on a copy of the downloaded document** check box and then select **OK**. 
+1. In the **Share ‘Marketing’** window, in the **Invite people** field, enter **Alex**, then select **Alex Wilber** from the user list, and then select **Share**.
 
-19. In the top-right corner of the **Documents > Settings** page, select **Share**.
+1. Select the **Start** icon in the bottom left corner of the taskbar, and then in the Program menu, select **Microsoft Word**.
 
-20. In the **Share ‘Marketing’** window, in the **Invite people** field, enter **Alex**, then select **Alex Wilber** from the user list, and then select **Share**.
+1. When **Microsoft Word** opens, select **Blank document**.  
 
-21. Select the **Start** icon in the bottom left corner of the taskbar, and then in the Program menu, select **Microsoft Word**.
+1. Enter some text in the document, then save the file to the **Desktop** as whatever file name you wish.
 
-22. When **Microsoft Word** opens, select **Blank document**.  
+1. Close Word.
 
-23. Enter some text in the document, then save the file to the **Desktop** as whatever file name you wish.
+1. Since Holly has her Outlook mailbox open, she is simply going to email the file that she just created to Alex. Select the **Outlook on the Web** tab in your browser that contains Holly's mailbox that you just used in the prior task when you emailed Alex.
 
-24. Close Word.
+1. Send an email to Alex Wilber and attach the file that you just created and stored on the Desktop. 
 
-25. Since Holly has her Outlook mailbox open, she is simply going to email the file that she just created to Alex. Select the **Outlook on the Web** tab in your browser that contains Holly's mailbox that you just used in the prior task when you emailed Alex.
-
-26. Send an email to Alex Wilber and attach the file that you just created and stored on the Desktop. 
-
-27. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (LON-CL2) VM.<br/>
+1. Now that Holly has created this new SharePoint site and used IRM to restrict permissions on the site, she has asked Alex Wilber to test this site to validate whether IRM is working for SharePoint Online. Alex will perform this test on the Client 2 (LON-CL2) VM.<br/>
 
 	‎Switch to the **LON-CL2** VM, where you should still have **Outlook on the Web** open in your **Microsoft Edge** browser from the prior task. You should still be logged in as **Alex Wilber**.
 
-28. In the **Outlook on the Web** tab, open the email that you just received from Holly that contains the file Holly created earlier. Save the file to the **Documents** folder on your **C** drive.
+1. In the **Outlook on the Web** tab, open the email that you just received from Holly that contains the file Holly created earlier. Save the file to the **Documents** folder on your **C** drive.
 
-29. ‎In the browser, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: **https://M365xZZZZZZ.sharepoint.com/sites/marketing** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
+1. ‎In the browser, open a new tab and enter the following URL in the address bar to navigate directly to the Marketing site: **https://M365xZZZZZZ.sharepoint.com/sites/marketing** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider)
 
-30. If a **We've got a new look** window appears, select **NOT NOW**.
+1. If a **We've got a new look** window appears, select **NOT NOW**.
 
-31. On the **Marketing** site, select **Documents** on the left-hand pane.  
+1. On the **Marketing** site, select **Documents** on the left-hand pane.  
 
-32. On the **Documents** page, in the menu bar, select **Upload**, and then in the drop-down menu select **Files**. 
+1. On the **Documents** page, in the menu bar, select **Upload**, and then in the drop-down menu select **Files**. 
 
-33. In the **File Explorer** window, navigate to the **Documents** folder, which is where you saved the file that Holly emailed to Alex a few steps ago. Select the file and then select **Open**.
+1. In the **File Explorer** window, navigate to the **Documents** folder, which is where you saved the file that Holly emailed to Alex a few steps ago. Select the file and then select **Open**.
 
 	This will upload the file to the **Documents** page in the **Marketing** site collection.
 
-34. In the list of Documents, right-click on the file that you just uploaded, select **Open** in the menu that appears, and then select **Open in browser**. 
+1. In the list of Documents, right-click on the file that you just uploaded, select **Open** in the menu that appears, and then select **Download** and **Save**.
 
-35. In Word Online, if a **Your privacy option** window appears, then close it. Verify that a warning message appears at the top of the page indicating a **Marketing policy for downloads** applies to the file. 
+1. Select **Open** to open the new copy of the document you just downloaded.
 
-36. Try to enter some text in the document. Verify that Alex cannot edit the document in Word Online because it’s protected in this site collection. A **Read-only** information line will display at the top of the page indicating the document is read-only. <br/>
+1. In Word, verify that a warning message appears at the top of the page indicating **RESTRICTED ACCESS** and click on **Enable Editing**.
 
-	You have just verified that the Marketing site collection is protected by SharePoint Information Rights Management. The document that Alex just uploaded to the SharePoint Online site is flagged as read-only and cannot be updated.
+1. Make some changes to the document and save them (Alex has write permissions).
 
-37. Leave your browser open for the next lab; do not close any of the tabs. 
+1. Open the **File** menu and try to **print** the document : Alex can't because of the IRM protection. <br/>
+
+	You have just verified that the Marketing site collection is protected by SharePoint Information Rights Management. The document that Alex just uploaded to the SharePoint Online site is flagged as protected and any downloaded copy will be protected in order to adapt to the user's sharepoint permissions.
+
+1. Leave your browser open for the next lab; do not close any of the tabs. 
 
 
 # End of Lab 4
