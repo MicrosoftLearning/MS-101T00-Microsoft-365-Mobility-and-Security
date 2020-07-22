@@ -87,27 +87,23 @@ In this exercise you will create an AIP label and add it to the default policy s
 
 9. In the **Save settings** pop-up window that appears asking if you’re sure about saving and publishing the changes, select **OK.**
 
-10. In the **Azure Information Protection | Labels** window, under **Classifications** in the left-hand navigation pane, select **Policies**.
+1. In Microsoft Edge, open a new tab and enter the following URL in the address bar: https://security.microsoft.com/
 
-11. In the **Azure Information Protection | Policies** window, in the list of policies, select the **Global** policy to edit it.
+10. In the **Microsoft 365 security** window, under **Classifications** in the left-hand navigation pane, select **Sensitivity labels** and click the **Publish labels** button
 
-12. In the **Policy: Global** window, below the list of labels, select **Add or remove labels**.
+11. In the **Choose sentivity labels to publish** window, click the **Choose sensitivity labels to publish**, select **Select all** and click **Add** and **next**
 
-13. In the **Policy: Add or remove labels** pane that appears on the right, under **Label display name**, select the check box to the left of **PII** and then select **OK**. 
+12. In the **Publish to users and groups** window, click **Next**.
 
-14. In the **Policy: Global** window, scroll down towards the bottom of the pane and in the **Users must provide justification to set a lower classification label, remove a label, or remove protection** option, select **On**.
+1. In the **Policy settings** window, select **Users must provide justification to remove a label or classification label** and click **next**
 
-15. Select **Save** in the menu bar at the top of the page.
+1. In the **name your policy** Window type **Global - Unified** in the name fiald and click **Next**
 
-16. In the **Save settings** pop-up window that appears asking if you’re sure about saving and publishing the changes, select **OK.**
+1. In the **Review and finish** window, click **Submit** and click **Done** to close the window
 
-17. Close the **Policy: Global** window by selecting the **X** in the upper right corner (you may have to scroll to the right to see the **X**).
+15. Leave your browser's tabs open as you will use the Azure information protection one in the next exercise when you configure Windows Information Protection. 
 
-18. Close the **Azure Information Protection - Policies** window by selecting the **X** in the upper right corner (you may have to scroll to the right to see the **X**).
-
-19. This takes you back to the **All services** window. Leave this Azure portal tab open as you will use it in the next exercise when you configure Windows Information Protection. 
-
-You have now configured a new custom AIP label named PII and added it to the default AIP policy.
+You have now configured a new custom AIP label named PII and added published it to all users.
 
 
 ### Task 3 – Assign an AIP label to a document
