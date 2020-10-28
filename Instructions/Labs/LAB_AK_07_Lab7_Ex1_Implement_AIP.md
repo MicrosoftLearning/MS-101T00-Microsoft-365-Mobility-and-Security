@@ -17,7 +17,7 @@ To implement Azure Information Protection as part of your pilot project at Adatu
 
 5. On the **Download Center** page, scroll down to the **Microsoft Azure Information Protection** section and select **Download**.
 
-6. In the **Choose the download you want** window, select **AzInfoProtection.exe** and then select **Next.**
+6. In the **Choose the download you want** window, select **AzInfoProtection_UL.exe** and then select **Next.**
 
 7. In the taskbar that appears at the bottom of the page, select **Save**.
 
@@ -89,7 +89,10 @@ In this exercise you will create an AIP label and add it to the default policy s
 
 1. In Microsoft Edge, open a new tab and enter the following URL in the address bar: https://security.microsoft.com/
 
-10. In the **Microsoft 365 security** window, under **Classifications** in the left-hand navigation pane, select **Sensitivity labels** and click the **Publish labels** button
+10. In the **Microsoft 365 security** window, under **Classifications** in the left-hand navigation pane, select **Sensitivity labels** and click the 
+**Turn on** button.
+
+1. In the **Sentivity Labels** page, click on the **Publish labels** button
 
 11. In the **Choose sentivity labels to publish** window, click the **Choose sensitivity labels to publish**, select **Select all** and click **Add** and **next**
 
