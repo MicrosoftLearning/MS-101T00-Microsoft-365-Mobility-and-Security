@@ -130,7 +130,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 5. In the **Active users** list, you will see the list of existing user accounts that were created for you by your lab hosting provider. In this task, you are taking on the role of the MOD Administrator, and as such, you must create a user account for Holly Dickson, who is Adatum's new Enterprise Administrator. In doing so, you will assign Holly the Microsoft 365 role of Global Administrator, which gives Holly global access to most management features and data across Microsoft online services. 
 
-6. In the **Active Users** window, select **Add a user** that appears on the menu bar above the list of active users. 
+6. In the **Active Users** window, select **Add a user** that appears on the menu bar above the list of active users, then select **Single user** from the submenu. 
 
 7. In the **Set up the basics** window, enter the following information:
 
@@ -148,9 +148,9 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 		**Holly@xxxxxZZZZZZ.onmicrosoft.com**  
 	
-	- Password settings: select the **Let me create the password** option
+	- Clear (uncheck) the **Automatically create a password** checkbox which will enable a new box for entering a custom password.
 
-	- Password: **Pa55w.rd** (Hint: Select the eye icon at the right side of the field to verify the password that you entered)
+	- In the new Password box enter: **Pa55w.rd** (Hint: Select the eye icon at the right side of the field to verify the password that you entered)
 
 	- Clear (uncheck) the **Require this user to change their password when they first sign in** check box 
 
@@ -215,7 +215,7 @@ Each user is a key member of your pilot project team. While their user accounts 
 
     Select the key icon for **Alex Wilber**.
 
-11. In the **Reset password** pane for Alex, select **Let me create the password**, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
+11. In the **Reset password** pane for Alex, select clear (uncheck) the **Automatically create a password** checkbox, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
 
 12. Select **Reset** and then select **Close**.
 
@@ -314,7 +314,7 @@ In Module 8, you will perform a Content Search lab that requires that Joni Sherm
 
 4. In the **Home &gt; Permissions** page, select the **eDiscovery Manager** check box.
 
-5. In the **eDiscovery Manager** pane that appears, scroll down to the **eDiscovery Manager** section and select **Edit**.
+5. In the **eDiscovery Manager** pane that appears, scroll down to the **eDiscovery Manager** section and select **Edit role group**.
 
 6. The **Editing Choose eDiscovery Manager** wizard opens. The list of users who are assigned this role should be empty. Select **Choose eDiscovery Manager**.
 

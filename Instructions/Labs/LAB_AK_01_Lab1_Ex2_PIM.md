@@ -75,6 +75,8 @@ For Adatum's PIM pilot project, Holly has selected Patti Fernandez as the sole u
 
 11. In the **Global Administrator | Assignments** window, note that Patti Fernandez is now an eligible user who can be assigned the Global Administrator role.
 
+**Note:** It can take 30 minutes for the **Pending Request** to be implemented.  Wait at least 10 minutes, then refresh the **Global Administrator | Assignments** window until you see Patti listed under the **Eligible assignments** tab.
+
 12. Leave all browser tabs open for the next task.
 
 
@@ -104,7 +106,7 @@ Now that Patti Fernandez has been made an eligible user for the Global administr
 
 10. In the **More information required** window that appears, select **Next**. 
 
-11. In the **Enter password** window, enter **Pa55w.rd** in the Password field and then select **Sign in**.
+11. If an **Enter password** window appears, enter **Pa55w.rd** in the Password field and then select **Sign in**.
 
 12. On the **Microsoft Authenticator** page, you can download this mobile app or use a different method for MFA verification. For the purposes of this lab, we recommend you use your mobile phone so that you do not have to take time installing the Microsoft Authenticator app that you may not use again after this training class. Select the **I want to set up a different method** option at the bottom of the page. 
 

@@ -16,7 +16,10 @@ For this lab, you will not include a file of passwords; you will instead enter a
 
 2. After the previous lab exercise, you should still be in the **Office 365 Security and Compliance** center, and you should still be logged in as Holly Dickson; if not, then do so now.
 
-3. After the previous lab exercise, you should also be in the **Attack Simulator**; if not, then in the left-hand navigation pane, under **Threat Management**, select **Attack simulator**. In the list of 4 attacks, scroll down to the **Brute Force Password (Dictionary Attack)** section and select the **Launch Attack** button.
+3. After the previous lab exercise, you should also be in the **Attack Simulator**; if not, then in the left-hand navigation pane, under **Threat Management**, select **Attack simulator**. In the list of 4 attacks, scroll down to the **Brute Force Password (Dictionary Attack)** section and select the **Launch Attack** button. 
+
+**NOTE!  The rest of the exercise cannot be performed.  The interface has changed so that after you select Launch Attack, there is not a choice for Password Attacks, either Brute Force or Spray attacks.  No information available online for implementing the types of campaigns.**
+
 
 4. In the **Provide a name for the password attack** page, enter **Brute Force Test** in the **Name** field and select **Next**.
 

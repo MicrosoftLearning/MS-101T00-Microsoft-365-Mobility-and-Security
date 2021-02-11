@@ -14,7 +14,7 @@ In this task, you will create a Safe Links policy that applies to all users in y
 
 3. In the **Security &amp; Compliance center**, in the left-hand navigation pane, the **Threat Management** group should still be expanded from the prior task; if not, expand it now. Under this group, select **Policy**.
 
-4. In the **Policy** window, double-click the **ATP Safe Links** tile. 
+4. In the **Policy** window, select the **Safe Links** tile. 
 
 5. On the **Safe links** page, select **+Create** on the menu bar. This initiates the **Create Safe Links Policy** wizard.
 

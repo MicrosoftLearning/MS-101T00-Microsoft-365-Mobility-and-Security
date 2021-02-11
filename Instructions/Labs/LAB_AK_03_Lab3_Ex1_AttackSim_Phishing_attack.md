@@ -18,7 +18,7 @@ To use Microsoft's Attack Simulator to simulate a phishing attack, you must firs
 
 5. To enable MFA for Holly Dickson's user account, select the **Microsoft 365 admin center** tab in your browser, and then in the left hand-navigation pane, select **Users** and then select **Active users**.
 
-6. In the **Active users** window, on the menu bar at the top of the user list, select the **ellipsis (More actions)** icon. In the drop-down menu that appears, select  **Multi-factor authentication**.
+6. In the **Active users** window, on the menu bar at the top of the user list, select the select **Multi-factor authentication**. If it does not appear, select the **ellipsis (More actions)** icon. Then, in the drop-down menu that appears, select  **Multi-factor authentication**.
 
 7. In the **multi-factor authentication** window, the **users** tab is displayed by default. Note the MFA status for all existing user accounts, which is **Disabled**. Select the check box for **Holly Dickson**, and in Holly's properties pane that appears on the right, select **Enable**.
 
@@ -48,17 +48,25 @@ To use Microsoft's Attack Simulator to simulate a phishing attack, you must firs
 
 19. In the **Phone** window, enter the 6 digit verification code in the **Enter code** field and then select **Next**.
 
-20. Once verification is complete and you receive a message indicating your phone was registered successfully, select **Next**.
+20. This takes you back to the **Microsoft Authenticator**, Select the **I want to set up a different method** option at the bottom of the page. 
 
-21. On the **Success!** page, select **Done**.
+21. On the **Choose a different method** dialog box that appears, select the drop-down arrow in the **Which method would you like to use?** field, select **Email**, and then select **Confirm**. 
 
-22. If you receive a dialog box indicating your sign in has timed out, you will have to enter Patti's password of **Pa55w.rd** and then you will be sent another verification code to your phone. On the **Enter code** window, enter this new code and then select **Verify**. 
+22. Enter your personal email address.
 
-23. If you take too long to complete this process, the **Enter password** window will appear with a message indicating you took too long to complete the sign in process, so you will be timed-out. If this occurs, you must sign in again with Holly's password of **Pa55w.rd**. Another verification code will be texted to your phone, so enter it in the **Enter code** screen that appears and select **Verify**.
+23. Open your personal email address and the email from Adatum corporation.  Note the verification code.
 
-24. The **Office 365 Security and Compliance** center should now be displayed in your browser. You will resume from here in the next task when you launch a spear phishing attack using the Attack Simulator. Leave this tab open in your browser. 
+24. Enter the verification code from the Adatum email to your personal email address then select **Next**.
 
-23. You have now configured MFA, you have signed into the **Office 365Security and Compliance** center using MFA, and you are ready to run the Attack Simulator. Leave everything as is in your VM and proceed to the next task.
+25. On the **Success!** page, select **Done**.
+
+26. If you receive a dialog box indicating your sign in has timed out, you will have to enter Patti's password of **Pa55w.rd** and then you will be sent another verification code to your phone. On the **Enter code** window, enter this new code and then select **Verify**. 
+
+27. If you take too long to complete this process, the **Enter password** window will appear with a message indicating you took too long to complete the sign in process, so you will be timed-out. If this occurs, you must sign in again with Holly's password of **Pa55w.rd**. Another verification code will be texted to your phone, so enter it in the **Enter code** screen that appears and select **Verify**.
+
+28. The **Office 365 Security and Compliance** center should now be displayed in your browser. You will resume from here in the next task when you launch a spear phishing attack using the Attack Simulator. Leave this tab open in your browser. 
+
+29. You have now configured MFA, you have signed into the **Office 365Security and Compliance** center using MFA, and you are ready to run the Attack Simulator. Leave everything as is in your VM and proceed to the next task.
 
 
 ### Task 2: Configure and launch a Spear Phishing attack
@@ -81,21 +89,27 @@ Now that Holly has turned on MFA, she is ready to run the Attack Simulator and l
 
 6. In the **Launch attack** section for the **Spear Phishing (Credentials Harvest)** attack type, select **Launch attack**. This initiates the **Configure Phishing Attack** wizard.
 
-7. In the **Configure Phishing Attack** wizard, the steps involved in the simulation are displayed in the left-hand pane. While you can manually create a phishing campaign, it is recommended that you take advantage of the available templates that will prefill most of the information for you. The key to a successful phishing attack is to create a very intriguing, real-world looking email, and the templates provide very creative solutions. <br/>
+7. In the **Configure Phishing Attack** wizard, the steps involved in the simulation are displayed in the left-hand pane. While you can manually create a phishing campaign, it is recommended that you take advantage of the available templates that will prefill most of the information for you. The key to a successful phishing attack is to create a very intriguing, real-world looking email, and the templates provide very creative solutions. <br/>.  
 
-	On the **Provide a name to the campaign** page, select the **Use Template** button. 
+8. Select **Launch a simulation**.
 
-8. Select the **Please select a template in the list** field that appears, and in the drop-down menu, select the template of your choice. Select **Next**.
+9. **Credential Harvest** should be select be default, if not choose it, then select **Next**.
 
-9. In the next step, you will select the users that will receive the phishing email. You can select users from the company address book (the Active Users), or for large-scale attacks, you can import users from a .csv file. For this simple simulation, you will only send the email to one user, so select **Address Book**. <br/>
+10. Enter a name for the simulation and select **Next**.
 
-	Enter **Lynne** in the **Search for users or groups within your organization** field. In the list of users that appears, select **Lynne Robbins**. Lynne's user account record will display in the list of **Recipients**. Select **Next**. 
+11. On the **Select Payload** screen, choose a payload you would like to simulate, then select **Next**.
 
-10. In the next step, you will configure the email details. Because you chose to use a template, all the fields are prefilled for you. Between this step and the next one, the template provides a very professional touch to make the email appear legitimate. Select **Next**.
+12. In the next step, you will select the users that will receive the phishing email. You can select users from the company address book (the Active Users), or for large-scale attacks, you can import users from a .csv file. For this simple simulation, you will only send the email to one user, so select **Add Users**. <br/>
 
-11. In the final configuration step, you will configure the email details. Because you chose to use a template, the **Email body** is prefilled for you. Scroll down to see the full body of the text. Select **Next**
+	Enter **Lynne** in the **Search for users or groups** field and select **Enter**. In the list of users that appears, select **Lynne Robbins** and select **Add 1 User(s)**. Lynne's user account record will display in the list of **Recipients**. Select **Next**. 
 
-12. On the **Confirmation** page, select **Finish**. This will launch the phishing attack!
+13. In the **Assign Training** page, accept the defaults you.  and elect **Next**.
+
+14. On the **Training landing page** page, accept the defaults and select **Next**.
+
+11. On the **Launch Details** page, review the options available, the select **Next**
+
+12. On the **Review Simulation** page, confirm all of the settings are correct and select **Submit**. This will launch the phishing attack!
 
 13. Leave your browser and the Security and Compliance Center open for the next task.
 
@@ -112,15 +126,17 @@ In this task, you will verify whether Lynne Robbins received the email that you 
  
 4. In the **Pick an account** window, select **Use another account**. 
 
-5. In the **Sign in** window, enter **LynnR@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ID provided by your lab hosting provider), and then in the **Enter password** window, enter **Pa55w.rd** and select **Sign in**. 
+5. In the **Sign in** window, enter **LynneR@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ID provided by your lab hosting provider), and then in the **Enter password** window, enter **Pa55w.rd** and select **Sign in**. 
 
 6. Close the **Welcome** window.
 
 7. In Lynne's Outlook Inbox, you should see the spear phishing email that was sent by the Attack Simulator. Select the email to open it and review the details in the body of the message. 
 
+**NOTE!** It can take up to 15 minutes for the email to arrive.  Wait for the email before proceeding.
+
 8. Select the link that is included in the email. Even though you know this is a spear phishing attack, this will enable you to see the effect of doing so in the Attack Simulator report that tracks the results of the spear phishing campaign.
 
-9. In the **Sign in** dialog box that appears, enter **LynnR@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ID provided by your lab hosting provider), and then in the **Enter password** window, enter **Pa55w.rd** and select **Sign in**. 
+9. In the **Sign in** dialog box that appears, enter **LynneR@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ID provided by your lab hosting provider), and then in the **Enter password** window, enter **Pa55w.rd** and select **Sign in**. 
 
 10. This displays a web page that explains how you have redirected to it as part of a Phishing awareness test being run by your organization. Read through the contents of this page. 
 
